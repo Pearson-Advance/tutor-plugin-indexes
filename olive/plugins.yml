@@ -27,7 +27,7 @@
     mock.
 
 - name: enterprise
-  src: '-e git@github.com:Pearson-Advance/tutor-contrib-enterprise.git@v15.0.0#egg=tutor-contrib-enterprise==v15.0.0'
+  src: '-e git+https://github.com/Pearson-Advance/tutor-contrib-enterprise.git@v15.0.0#egg=tutor-contrib-enterprise==v15.0.0'
   url: 'https://github.com/Pearson-Advance/tutor-contrib-enterprise.git'
   author: Pearson Advance <contact@edunext.co>
   maintainer: eduNEXT <contact@edunext.co>
