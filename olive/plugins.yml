@@ -3,7 +3,7 @@
 # The default plugins from the overhang index: https://overhang.io/tutor/main/olive/plugins.yml
 
 - name: mfe
-  src: 'git+https://github.com/overhangio/tutor-mfe.git@v15.0.5#egg=tutor-mfe==v15.0.5'
+  src: 'git+https://github.com/overhangio/tutor-mfe.git@v15.0.5'
   url: 'https://github.com/overhangio/tutor-mfe.git'
   author: The Open edX Community
   maintainer: The Open edX Community
@@ -11,7 +11,7 @@
     mock.
 
 - name: ecommerce
-  src: '-e git+https://github.com/Pearson-Advance/tutor-ecommerce.git@pearson-release/olive.main#egg=tutor-ecommerce'
+  src: '-e git+https://github.com/Pearson-Advance/tutor-ecommerce.git@pearson-release/olive.main'
   url: 'https://github.com/eduNEXT/tutor-contrib-codejail.git'
   author: edunext <contact@edunext.co>
   maintainer: edunext <contact@edunext.co>
@@ -19,7 +19,7 @@
     mock.
 
 - name: discovery
-  src: '-e git+https://github.com/Pearson-Advance/tutor-discovery.git@pearson-release/olive.main#egg=tutor-discovery'
+  src: '-e git+https://github.com/Pearson-Advance/tutor-discovery.git@pearson-release/olive.main'
   url: 'https://github.com/openedx/tutor-contrib-aspects.git'
   author: The Open edX Community
   maintainer: The Open edX Community
@@ -27,7 +27,7 @@
     mock.
 
 - name: enterprise
-  src: '-e git+https://github.com/Pearson-Advance/tutor-contrib-enterprise.git@v15.0.0#egg=tutor-contrib-enterprise==v15.0.0'
+  src: '-e git+https://github.com/Pearson-Advance/tutor-contrib-enterprise.git@v15.0.0'
   url: 'https://github.com/Pearson-Advance/tutor-contrib-enterprise.git'
   author: Pearson Advance <contact@edunext.co>
   maintainer: eduNEXT <contact@edunext.co>
@@ -35,7 +35,7 @@
     mock.
 
 - name: tutor-pearson-plugin
-  src: '-e git+https://github.com/Pearson-Advance/tutor-pearson-plugin.git@main#egg=tutor-pearson-plugin'
+  src: '-e git+https://github.com/Pearson-Advance/tutor-pearson-plugin.git@main'
   url: 'https://github.com/Pearson-Advance/tutor-pearson-plugin.git'
   author: Pearson Advance <contact@edunext.co>
   maintainer: eduNEXT <contact@edunext.co>
