@@ -34,4 +34,11 @@
   description: >
     mock.
 
+- name: tutor-pearson-plugin
+  src: 'pip install -e git+ssh://git@github.com/Pearson-Advance/tutor-pearson-plugin.git#egg=tutor-pearson-plugin'
+  url: 'https://github.com/Pearson-Advance/tutor-pearson-plugin.git'
+  author: Pearson Advance <contact@edunext.co>
+  maintainer: eduNEXT <contact@edunext.co>
+  description: >
+    mock.
 
