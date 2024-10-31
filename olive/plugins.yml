@@ -9,23 +9,20 @@
   maintainer: The Open edX Community
   description: >
     mock.
-
 - name: ecommerce
   src: '-e git+https://github.com/Pearson-Advance/tutor-ecommerce.git@pearson-release/olive.main#egg=tutor-ecommerce'
-  url: 'https://github.com/eduNEXT/tutor-contrib-codejail.git'
+  url: 'https://github.com/Pearson-Advance/tutor-ecommerce.git'
   author: edunext <contact@edunext.co>
   maintainer: edunext <contact@edunext.co>
   description: >
     mock.
-
 - name: discovery
   src: '-e git+https://github.com/Pearson-Advance/tutor-discovery.git@pearson-release/olive.main#egg=tutor-discovery'
-  url: 'https://github.com/openedx/tutor-contrib-aspects.git'
+  url: 'https://github.com/Pearson-Advance/tutor-discovery.git'
   author: The Open edX Community
   maintainer: The Open edX Community
   description: >
     mock.
-
 - name: enterprise
   src: '-e git+https://github.com/Pearson-Advance/tutor-contrib-enterprise.git@v15.0.0#egg=tutor-contrib-enterprise'
   url: 'https://github.com/Pearson-Advance/tutor-contrib-enterprise.git'
@@ -33,7 +30,27 @@
   maintainer: eduNEXT <contact@edunext.co>
   description: >
     mock.
-
+- name: notes
+  src: 'git+https://github.com/overhangio/tutor-notes.git@v15.0.4#egg=tutor-notes'
+  url: 'https://github.com/overhangio/tutor-notes.git'
+  author: Pearson Advance <contact@edunext.co>
+  maintainer: eduNEXT <contact@edunext.co>
+  description: >
+    mock.
+- name: credentials
+  src: 'git+https://github.com/overhangio/tutor-credentials.git@v14.0.1#egg=tutor-credentials'
+  url: 'https://github.com/overhangio/tutor-credentials.git'
+  author: The Open edX Community
+  maintainer: The Open edX Community
+  description: >
+    mock.
+- name: aspects
+  src: 'git+https://github.com/openedx/tutor-contrib-aspects.git@v1.1.0#egg=tutor-contrib-aspects'
+  url: 'https://github.com/openedx/tutor-contrib-aspects.git'
+  author: Pearson Advance <contact@edunext.co>
+  maintainer: eduNEXT <contact@edunext.co>
+  description: >
+    mock.
 - name: tutor-pearson-plugin
   src: '-e git+ssh://git@github.com/Pearson-Advance/tutor-pearson-plugin.git@vue/PADV-1504#egg=tutor-pearson-plugin'
   url: 'https://github.com/Pearson-Advance/tutor-pearson-plugin.git'
@@ -41,4 +58,3 @@
   maintainer: eduNEXT <contact@edunext.co>
   description: >
     mock.
-
