@@ -45,7 +45,7 @@
   description: >
     mock.
 - name: credentials
-  src: 'git+https://github.com/overhangio/tutor-credentials.git@v14.0.1#egg=tutor-credentials'
+  src: 'git+https://github.com/overhangio/tutor-credentials.git@v14.0.1#egg=tutor-contrib-credentials'
   url: 'https://github.com/overhangio/tutor-credentials.git'
   author: The Open edX Community
   maintainer: The Open edX Community
