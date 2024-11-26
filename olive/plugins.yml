@@ -24,7 +24,7 @@
   description: >
     mock.
 - name: tutor-pearson-plugin
-  src: '-e git+ssh://git@github.com/Pearson-Advance/tutor-pearson-plugin.git@vue/PADV-1504#egg=tutor-pearson-plugin'
+  src: '-e git+ssh://git@github.com/Pearson-Advance/tutor-pearson-plugin.git@main#egg=tutor-pearson-plugin'
   url: 'https://github.com/Pearson-Advance/tutor-pearson-plugin.git'
   author: Pearson Advance <contact@edunext.co>
   maintainer: eduNEXT <contact@edunext.co>
@@ -54,7 +54,7 @@
 - name: aspects
   src: 'git+https://github.com/openedx/tutor-contrib-aspects.git@v1.1.0#egg=tutor-contrib-aspects'
   url: 'https://github.com/openedx/tutor-contrib-aspects.git'
-  author: Pearson Advance <contact@edunext.co>
-  maintainer: eduNEXT <contact@edunext.co>
+  author: The Open edX Community
+  maintainer: The Open edX Community
   description: >
     mock.
