@@ -31,7 +31,7 @@
   description: >
      Official Tutor plugin for discussion forums service, pinned to Teak (v20.0.0).
 - name: tutor-pearson-plugin
-  src: '-e git+ssh://git@github.com/Pearson-Advance/tutor-pearson-plugin.git@pearson/ulmo#egg=tutor-pearson-plugin'
+  src: '-e git+ssh://git@github.com/Pearson-Advance/tutor-pearson-plugin.git@felipeb/translation-settings#egg=tutor-pearson-plugin'
   url: 'https://github.com/Pearson-Advance/tutor-pearson-plugin.git'
   author: Pearson Advance <contact@edunext.co>
   maintainer: eduNEXT <contact@edunext.co>
