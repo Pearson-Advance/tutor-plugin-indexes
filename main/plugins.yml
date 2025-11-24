@@ -16,6 +16,13 @@
   maintainer: Edly (overhangio/tutor-discovery maintainers)
   description: >
     Official Tutor plugin for Course Discovery, pinned to Teak (v20.0.0).
+- name: ecommerce
+  src: '-e git+https://github.com/Pearson-Advance/tutor-ecommerce.git@pearson/ulmo#egg=tutor-ecommerce'
+  url: 'https://github.com/Pearson-Advance/tutor-ecommerce.git'
+  author: edunext <contact@edunext.co>
+  maintainer: edunext <contact@edunext.co>
+  description: >
+    Custom Tutor plugin for Ecommerce maintained by Pearson, pinned to Sumac (v19.0.0).
 - name: notes
   src: 'git+https://github.com/overhangio/tutor-notes.git@v20.0.0#egg=tutor-notes'
   url: 'https://github.com/overhangio/tutor-notes.git'
