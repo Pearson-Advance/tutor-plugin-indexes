@@ -3,19 +3,19 @@
 # The default plugins from the overhang index: https://overhang.io/tutor/main/olive/plugins.yml
 
 - name: mfe
-  src: 'git+https://github.com/overhangio/tutor-mfe.git@v20.0.0#egg=tutor-mfe'
+  src: 'git+https://github.com/overhangio/tutor-mfe.git@v21.0.0#egg=tutor-mfe'
   url: 'https://github.com/overhangio/tutor-mfe.git'
   author: The Open edX Community
   maintainer: The Open edX Community
   description: >
-    Official Tutor plugin for MFE, pinned to Teak (v20.0.0).
+    Official Tutor plugin for MFE, pinned to Ulmo (v21.0.0).
 - name: discovery
-  src: '-e git+https://github.com/overhangio/tutor-discovery.git@v20.0.0#egg=tutor-discovery'
+  src: '-e git+https://github.com/overhangio/tutor-discovery.git@v21.0.0#egg=tutor-discovery'
   url: 'https://github.com/overhangio/tutor-discovery.git'
   author: Overhang.IO / Open edX Community
   maintainer: Edly (overhangio/tutor-discovery maintainers)
   description: >
-    Official Tutor plugin for Course Discovery, pinned to Teak (v20.0.0).
+    Official Tutor plugin for Course Discovery, pinned to Ulmo (v21.0.0).
 - name: ecommerce
   src: '-e git+https://github.com/Pearson-Advance/tutor-ecommerce.git@pearson/ulmo#egg=tutor-ecommerce'
   url: 'https://github.com/Pearson-Advance/tutor-ecommerce.git'
@@ -24,19 +24,19 @@
   description: >
     Custom Tutor plugin for Ecommerce maintained by Pearson, pinned to Sumac (v19.0.0).
 - name: notes
-  src: 'git+https://github.com/overhangio/tutor-notes.git@v20.0.0#egg=tutor-notes'
+  src: 'git+https://github.com/overhangio/tutor-notes.git@v21.0.0#egg=tutor-notes'
   url: 'https://github.com/overhangio/tutor-notes.git'
   author: Pearson Advance <contact@edunext.co>
   maintainer: eduNEXT <contact@edunext.co>
   description: >
-    Official Tutor plugin for Notes, pinned to Teak (v20.0.0).
+    Official Tutor plugin for Notes, pinned to Ulmo (v21.0.0).
 - name: forum
-  src: 'git+https://github.com/overhangio/tutor-forum.git@v20.0.0#egg=tutor-forum'
+  src: 'git+https://github.com/overhangio/tutor-forum.git@v21.0.0#egg=tutor-forum'
   url: 'https://github.com/overhangio/tutor-forum.git'
   author: The Open edX Community
   maintainer: The Open edX Community
   description: >
-     Official Tutor plugin for discussion forums service, pinned to Teak (v20.0.0).
+     Official Tutor plugin for discussion forums service, pinned to Ulmo (v21.0.0).
 - name: tutor-pearson-plugin
   src: '-e git+ssh://git@github.com/Pearson-Advance/tutor-pearson-plugin.git@pearson/ulmo#egg=tutor-pearson-plugin'
   url: 'https://github.com/Pearson-Advance/tutor-pearson-plugin.git'
