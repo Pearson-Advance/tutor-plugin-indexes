@@ -51,3 +51,10 @@
   maintainer: The Open edX Community
   description: >
     Official Tutor plugin for aspects service, pinned to Teak (v2.5.0).
+- name: enterprise
+  src: '-e git+https://github.com/Pearson-Advance/tutor-contrib-enterprise.git@v21.0.0#egg=tutor-contrib-enterprise'
+  url: 'https://github.com/Pearson-Advance/tutor-contrib-enterprise.git'
+  author: Pearson Advance <contact@edunext.co>
+  maintainer: eduNEXT <contact@edunext.co>
+  description: >
+    Custom Enterprise Tutor plugin.
