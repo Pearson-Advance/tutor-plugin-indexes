@@ -10,12 +10,12 @@
   description: >
     Official Tutor plugin for MFE, pinned to Ulmo (v21.0.0).
 - name: discovery
-  src: '-e git+https://github.com/overhangio/tutor-discovery.git@v21.0.0#egg=tutor-discovery'
-  url: 'https://github.com/overhangio/tutor-discovery.git'
-  author: Overhang.IO / Open edX Community
-  maintainer: Edly (overhangio/tutor-discovery maintainers)
+  src: '-e git+https://github.com/Pearson-Advance/tutor-discovery.git@pearson/ulmo#egg=tutor-discovery'
+  url: 'https://github.com/Pearson-Advance/tutor-discovery.git'
+  author: edunext <contact@edunext.co>
+  maintainer: edunext <contact@edunext.co>
   description: >
-    Official Tutor plugin for Course Discovery, pinned to Ulmo (v21.0.0).
+    Custom Tutor plugin for Course Discovery, pinned to Ulmo (v21.0.0).
 - name: ecommerce
   src: '-e git+https://github.com/Pearson-Advance/tutor-ecommerce.git@pearson/ulmo#egg=tutor-ecommerce'
   url: 'https://github.com/Pearson-Advance/tutor-ecommerce.git'
