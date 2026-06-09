@@ -58,3 +58,10 @@
   maintainer: eduNEXT <contact@edunext.co>
   description: >
     Custom Enterprise Tutor plugin.
+- name: credentials
+  src: 'git+https://github.com/overhangio/tutor-credentials.git@v21.0.3#egg=tutor-credentials'
+  url: 'https://github.com/overhangio/tutor-credentials.git'
+  author: The Open edX Community
+  maintainer: The Open edX Community
+  description: >
+    The Open edX Community
