@@ -1,0 +1,11 @@
+# This is the index for all Tutor plugins in sandbox used by Pearson.
+# It is available at the following location: https://raw.githubusercontent.com/Pearson-Advance/tutor-plugin-indexes/main/ulmo/plugins.yml
+# The default plugins from the overhang index: https://overhang.io/tutor/main/ulmo/plugins.yml
+
+- name: tutor-pearson-plugin
+  src: '-e git+ssh://git@github.com/Pearson-Advance/tutor-pearson-plugin.git@pearson/ulmo#egg=tutor-pearson-plugin'
+  url: 'https://github.com/Pearson-Advance/tutor-pearson-plugin.git'
+  author: Pearson Advance <contact@edunext.co>
+  maintainer: eduNEXT <contact@edunext.co>
+  description: >
+    Custom Pearson Tutor plugin.
